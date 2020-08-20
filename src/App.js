@@ -10,7 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>{-1.5 |> Math.abs |> Math.round}</p>
+        <p>{Math.round(Math.abs(-1.5))}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
