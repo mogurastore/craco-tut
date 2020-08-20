@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <p>{Math.round(Math.abs(-1.5))}</p>
+      <p>{-1.5 |> Math.abs |> Math.round}</p>
     </div>
   );
 }
